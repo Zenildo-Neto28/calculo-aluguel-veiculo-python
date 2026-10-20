@@ -1,0 +1,8 @@
+print('{:_^60}'.format(' '))
+print('Este programa é responsavel por mostrar os preços do aluguel')
+print('tendo em conta que 1 dia de aluguel: 10.000kz\n E o preço por km: 50kz')
+n1 = int(input('Digite os dias de aluguel: '))
+n2 = float(input('Quantos kilomêtros rodados: km  '))
+total= (n1*10000) + (n2*50)
+print('Total a pagar: kz{:.2f}'.format(total))
+print('{:_^60}'.format(''))
